@@ -5,7 +5,7 @@ const Deliverables: NextPage = () => {
   return (
     <>
       <h1>deliverables</h1>
-      
+      <Link href="/">HOME</Link>
     </>
   )  
 }
