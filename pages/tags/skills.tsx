@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Skills: NextPage = () => {
   return (
-    <>
+    <div className="container mx-auto">
       <Link href="/">HOME</Link>
       <Link href="/tags/deliverables">今まで作ったサイト集</Link>
       <h1>Webに関するスキル</h1>
@@ -55,7 +55,7 @@ const Skills: NextPage = () => {
       <h3>Git</h3>
       <p>コードを書くときは常に使っています。過去にSource Treeを使っていましたが、いちいち起動するのが面倒くさくなったのでターミナルでコマンドを打って使ってます。</p>
       
-    </>
+    </div>
   )  
 }
 
