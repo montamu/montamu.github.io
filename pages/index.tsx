@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Link from 'next/link'
 import Navbar from '../components/Navbar'
+import BlogCard from '../components/BlogCard'
 
 const Home: NextPage = () => {
   return (
@@ -14,8 +14,8 @@ const Home: NextPage = () => {
 
       <main>
         <Navbar />
-        <div className="container mx-auto px-4">
-
+        <div className="container mx-auto px-4 flex justify-center">
+          <BlogCard />
           
         </div>
       </main>
