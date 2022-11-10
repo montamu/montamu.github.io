@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
+import Description from '../components/Description'
+import Information from '../components/Information'
 import BlogCard from '../components/BlogCard'
 
 const Home: NextPage = () => {
@@ -14,7 +16,9 @@ const Home: NextPage = () => {
 
       <main>
         <Navbar />
-        <div className="container mx-auto px-4 flex justify-center">
+        <div className="container mx-auto px-4 grid gap-8 justify-center">
+          <Description />
+          <Information />
           <BlogCard />
           
         </div>
