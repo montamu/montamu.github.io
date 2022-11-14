@@ -16,7 +16,7 @@ const Home: NextPage = () => {
 
       <main>
         <Navbar />
-        <div className="container mx-auto px-4 grid gap-8 justify-center">
+        <div className="container mx-auto max-w-2xl px-4 py-8 grid gap-8 justify-center">
           <Description />
           <Information />
           <BlogCard />

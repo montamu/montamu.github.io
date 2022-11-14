@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const BlogCard = () => {
   return (
-    <div className="max-w-2xl px-8 py-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
+    <div className="bg-white dark:bg-gray-800">
       <div className="flex items-center justify-between">
           <span className="text-sm font-light text-gray-600 dark:text-gray-400">2022/11/9</span>
           <Link href="/tags/skills">
