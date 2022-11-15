@@ -10,7 +10,7 @@
 
 # next.js
 /.next/
-/out/
+# /out/ npm run export ファイルの出力先
 
 # production
 /build
